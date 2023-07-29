@@ -1,0 +1,16 @@
+html{
+    font-family: SF Pro;
+}
+
+body{
+    margin: 0;
+}
+
+#animated-dot-bg{
+    height: 100vh;
+    width: 100vw;
+}
+
+h1{
+    color: white;
+}
