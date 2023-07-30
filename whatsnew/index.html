@@ -7,15 +7,38 @@
         <link rel="stylesheet" href="../css/homepage.css">
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/animation.css">
+        <link rel="stylesheet" href="../css/whatsnew.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Victor+Mono:wght@100&family=Raleway:wght@100:wght@100&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="navbar">
-            <h1 class="logo">sama<span>bo3</span></h1>
-            <ul>
-                <li><a href="../whatsnew/index.html">What's new</a></li>
-                <li><a href="../index.html">Home</a></li>
-            </ul>
+        <div>
+            <div id="animated-global-bg">
+                <div class="navbar">
+                    <h1 class="logo">sama<span>bo3</span></h1>
+                    <ul>
+                        <li><a href="../link/index.html">Link</a></li>
+                        <li><a href="../whatsnew/index.html">What's new</a></li>
+                        <li><a href="../index.html">Home</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+        <script>
+            VANTA.GLOBE({
+            el: "#animated-global-bg",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            size: 0.8,
+            color: 0xffffff,
+            backgroundColor: 0x101011
+            })
+        </script>
     </body>
 </html>

@@ -1,0 +1,59 @@
+:root{
+    --color-primary: #202020;
+    --color-white: #e9e9e9;
+    --color-gray: #505766;
+    --color-black: #141d28;
+    --color-black-1: #212b38;
+}
+
+body{
+    margin: 0;
+}
+
+#animated-global-bg{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    top: 8vh;
+    left: 3vw;
+    width: 40%;
+    height: 88%;
+    background-color: rgba(27, 27, 27, 0.9);
+    border: 2px solid var(--color-white);
+    border-radius: 50px;
+}
+
+.button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    font-size: 5vh;
+    border-radius: 30px;
+    padding-right: 3vh;
+}
+
+.button-github{
+    background-color: black;
+    color: white;
+}
+
+.button-youtube{
+    background-color: black;
+    color: white;
+}
+
+.button-steam{
+    background-color: black;
+    color: white;
+}
+
+.img-responsive{
+    padding-left: 1vh;
+    width: auto;
+    height: 3.75vh;
+}
