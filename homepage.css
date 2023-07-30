@@ -3,7 +3,7 @@ body{
 }
 
 #animated-dot-bg{
-    margin: auto;
+    margin: 0;
     height: 100%;
     width: 100%;
 }
