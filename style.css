@@ -12,7 +12,7 @@ body{
 
 .menu-bar{
     background-color: var(--color-primary);
-    height: 3vw;
+    height: 5vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -24,7 +24,7 @@ body{
     color: var(--color-white);
     text-shadow: 2px 2px 10px black;
     padding: 20px;
-    font-size: 2.35vw
+    font-size: 3.5vh
 }
 
 .logo span{
@@ -43,7 +43,7 @@ body{
 .menu-bar ul li a{
     color: var(--color-white);
     text-decoration: none;
-    font-size: 1.3vw;
+    font-size: 2vh;
 }
 
 .home{
@@ -53,7 +53,8 @@ body{
 
 .wlc{
     text-align: center;
-    padding-top: 100px;
-    padding-left: 30px;
-    letter-spacing: 30px;
+    font-size: 5vh;
+    padding-top: 10vh;
+    padding-left: 3vw;
+    letter-spacing: 3vw;
 }
