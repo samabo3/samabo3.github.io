@@ -4,18 +4,20 @@
     --color-gray: #505766;
     --color-black: #141d28;
     --color-black-1: #212b38;
+    --color-primary-alt: #2e2e2e;
 }
 
 body{
     margin: 0;
+    background-color: #101011;
 }
 
 .navbar{
     background-color: var(--color-primary);
     height: 5vh;
-    position: fixed;
-    z-index: 100;
     width: 100%;
+    z-index: 1000;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -41,13 +43,57 @@ body{
 }
 
 .navbar ul li{
-    padding: 10px 30px;
+    padding: 0;
+    position: relative;
 }
 
 .navbar ul li a{
     color: var(--color-white);
     text-decoration: none;
     font-size: 2vh;
+    transition: all 0.3s;
+    padding: 13px 35px 13px 35px;
+}
+
+.navbar ul li a:hover{
+    background-color: var(--color-primary-alt);
+}
+
+.dropdown{
+    display: none;
+}
+
+.navbar ul li:hover .dropdown{
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 3.6vh;
+    border-radius: 0px 0px 10px 10px;
+    background-color: var(--color-primary-alt);
+}
+
+.navbar ul li:hover .dropdown ul{
+    display: block;
+}
+
+.dropdown-content{
+    width: 150px;
+    padding: 13px 10px 13px 10px;
+}
+
+.dropdown ul a{
+    display: block;
+    padding-block: 10px;
+    font-size: 2vh;
+    border-radius: 2vh;
+    background-color: var(--color-primary-alt);
+    border-color: var(--color-primary-alt);
+}
+
+.dropdown ul li:hover{
+    border-color: var(--color-primary);
+    background-color: var(--color-primary);
+    transition: all 0.3s;
 }
 
 .home{
@@ -56,6 +102,7 @@ body{
 }
 
 .wlc{
+    z-index: 3;
     text-align: center;
     font-size: 5vh;
     padding-top: 20vh;

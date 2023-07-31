@@ -15,7 +15,8 @@
   transform: translateY(3rem);
   animation: fadeInUp 3s ease 0.25s forwards;
 }
-  
+
+
 @keyframes typewriter {
   to {
     left: 100%;
@@ -34,5 +35,3 @@
     transform: translateY(0);
   }
 }
-
-  
